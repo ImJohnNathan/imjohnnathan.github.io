@@ -1,0 +1,23 @@
+#btd6font{
+    font-family: "Luckiest Guy";
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bg{
+    background-color: #3eab5f;
+}
+
+#githubpic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90;
+    transform: scale(0.2);
+}
