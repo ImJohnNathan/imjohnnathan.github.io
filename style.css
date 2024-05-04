@@ -1,14 +1,13 @@
-#btd6font{
+.btd6font{
     font-family: "Luckiest Guy";
     font-style: normal;
     color: #FFFFFF;
 }
 
 .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg{
@@ -16,8 +15,13 @@
 }
 
 #githubpic {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
     transform: scale(0.2);
+}
+
+.peelybutton{
+    height: 100px;
+    width: 200px;
 }
